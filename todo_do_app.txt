@@ -1,5 +1,6 @@
-.Fazer página para exibir os vídeos ou abrir o app do youtube.
-.Fazer a pesquisa.
-.Fazer a página de arquivo não encontrado e recarregar a busca padrão com botão.
-.Fazer a navegação com a Drawer.
+.Arrumar a navegação por stack (Home, Videos, Eventos, Localização, Contribua)
+.Criar as páginas (Home, Evetos, Localização, Contribua)
 .Carregar uma página específica em uma webView para eventos.
+.Criar Tela de Splash
+.Garantir permissões de uso de internet, Localização... do android
+
