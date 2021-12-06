@@ -1,4 +1,4 @@
-.Arrumar a navegação por stack (Home, Videos, Eventos, Localização, Contribua)
+ok .Arrumar a navegação por stack (Home, Videos, Eventos, Localização, Contribua)
 .Criar as páginas (Home, Evetos, Localização, Contribua)
 .Carregar uma página específica em uma webView para eventos.
 .Criar Tela de Splash

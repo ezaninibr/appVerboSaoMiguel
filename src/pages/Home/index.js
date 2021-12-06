@@ -9,6 +9,18 @@ const Home = ({navigation}) =>{
           title="Videos"
           onPress={() => navigation.navigate('Videos')}
         />
+        <Button
+          title="Eventos"
+          onPress={() => navigation.navigate('Eventos')}
+        />
+        <Button
+          title="Localização"
+          onPress={() => navigation.navigate('Localização')}
+        />
+        <Button
+          title="Contribua"
+          onPress={() => navigation.navigate('Contribua')}
+        />
       </View>
     )
 }

@@ -4,6 +4,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from './pages/Home';
+import Contribua from './pages/Contribua'
+import Eventos from './pages/Eventos'
+import Localizacao from './pages/Localizacao'
 import Videos from './pages/Videos';
 
 // import Videos from './components/Videos'
@@ -16,6 +19,9 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Contribua" component={Contribua} />
+        <Stack.Screen name="Eventos" component={Eventos} />
+        <Stack.Screen name="Localização" component={Localizacao} />
         <Stack.Screen name="Videos" component={Videos} />
       </Stack.Navigator>
     </NavigationContainer>
