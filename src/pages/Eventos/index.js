@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { Button, View, Text } from 'react-native';
+import { Button, View, Text, ScrollView, SafeAreaView } from 'react-native';
+import { WebView } from 'react-native-webview';
 
-const Eventos = () =>{
-  return(
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Eventos</Text>
-    </View>
+const Eventos = () => {
+  return (
+    <WebView source={{ uri: 'https://verbosaomiguel.com.br/eventos/' }} />
   )
 }
 

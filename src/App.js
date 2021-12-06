@@ -7,7 +7,8 @@ import Home from './pages/Home';
 import Contribua from './pages/Contribua'
 import Eventos from './pages/Eventos'
 import Localizacao from './pages/Localizacao'
-import Videos from './pages/Videos';
+import Cultos from './pages/Cultos';
+import Redes from './pages/Redes';
 
 // import Videos from './components/Videos'
 
@@ -22,7 +23,8 @@ const App = () => {
         <Stack.Screen name="Contribua" component={Contribua} />
         <Stack.Screen name="Eventos" component={Eventos} />
         <Stack.Screen name="Localização" component={Localizacao} />
-        <Stack.Screen name="Videos" component={Videos} />
+        <Stack.Screen name="Cultos" component={Cultos} />
+        <Stack.Screen name="Redes" component={Redes} />
       </Stack.Navigator>
     </NavigationContainer>
   )

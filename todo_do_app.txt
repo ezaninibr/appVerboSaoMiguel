@@ -1,6 +1,8 @@
 ok .Arrumar a navegação por stack (Home, Videos, Eventos, Localização, Contribua)
-.Criar as páginas (Home, Evetos, Localização, Contribua)
-.Carregar uma página específica em uma webView para eventos.
+ok .Criar as páginas (Home, Evetos, Localização, Contribua, Redes)
+ok .Carregar uma página específica em uma webView para eventos.
 .Criar Tela de Splash
-.Garantir permissões de uso de internet, Localização... do android
+ok .Arrumar nomes do app
+ok .Arrumar ícones
+ok .Garantir permissões de uso de internet
 
