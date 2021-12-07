@@ -58,9 +58,9 @@ const Videos = () => {
 
     const handleYouTube = async () => {
         try {
-            const { data } = await axios.get(baseURLTeste)
+            const { data } = await axios.get(baseURL)
             setVideos(data.items)
-            console.log(data.items[0])
+            //console.log(data.items[0])
         } catch (error) {
             Alert.alert("Ops... algo deu errado", "Verifique sua conexão de internet e tente novamente.")
         }
@@ -69,10 +69,10 @@ const Videos = () => {
 
     const handleYouTubeBusca = async (busca) => {
         try {
-            //const { data } = await axios.get(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCpeeRy8FV7l-fO8PCE2zUgg&maxResults=50&order=date&q=${busca}&key=${API_YOUTUBE}`)
-            const { data } = await axios.get(baseURLTeste)
+            const { data } = await axios.get(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCpeeRy8FV7l-fO8PCE2zUgg&maxResults=50&order=date&q=${busca}&key=${API_YOUTUBE}`)
+            // const { data } = await axios.get(baseURLTeste)
             setVideos(data.items)
-            console.log(busca)
+            //console.log(busca)
         } catch (error) {
             Alert.alert("Ops... algo deu errado", "Verifique sua conexão de internet e tente novamente.")
         }
@@ -80,7 +80,7 @@ const Videos = () => {
     }
 
     useEffect(() => {
-        handleYouTubeBusca()
+        handleYouTube()
     }, [])
 
     return (
