@@ -125,7 +125,7 @@ const Videos = () => {
 
                                                 }}
                                             >
-                                                <Icon name="youtube" size={60} />
+                                                <Icon name="youtube" size={40} />
                                             </TouchableOpacity>
 
                                             <TouchableOpacity
@@ -133,7 +133,7 @@ const Videos = () => {
                                                     handleShare(item.id.videoId)
                                                 }}
                                             >
-                                                <Icon name="share-2" size={60} />
+                                                <Icon name="share-2" size={40} />
                                             </TouchableOpacity>
                                         </View>
                                     </View>

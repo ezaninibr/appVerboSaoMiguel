@@ -1,8 +1,18 @@
 ok .Arrumar a navegação por stack (Home, Videos, Eventos, Localização, Contribua)
 ok .Criar as páginas (Home, Evetos, Localização, Contribua, Redes)
 ok .Carregar uma página específica em uma webView para eventos.
-.Criar Tela de Splash
 ok .Arrumar nomes do app
 ok .Arrumar ícones
 ok .Garantir permissões de uso de internet
+
+---
+
+Prox versões
+ok .Remover barra de menu da home
+.Criar Tela de Splash.
+.Carrosel de imagens na home.
+.Formulário de contato.
+.Leitura de QRcode.
+.Personalizar as Barras de Menu.
+.Melhorar página de eventos.
 

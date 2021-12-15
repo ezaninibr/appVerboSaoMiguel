@@ -26,7 +26,7 @@ const Home = ({ navigation }) => {
             onPress={() => navigation.navigate('Cultos')}
           >
             <View style={style.botao_menu}>
-              <Icon name="youtube" size={45} style={style.icone_menu} />
+              <Icon name="youtube" size={30} style={style.icone_menu} />
               <Text style={style.texto_menu}>Cultos on-line</Text>
             </View>
           </TouchableOpacity>
@@ -34,7 +34,7 @@ const Home = ({ navigation }) => {
             onPress={() => navigation.navigate('Eventos')}
           >
             <View style={style.botao_menu}>
-              <Icon name="calendar" size={45} style={style.icone_menu} />
+              <Icon name="calendar" size={30} style={style.icone_menu} />
               <Text style={style.texto_menu}>Eventos</Text>
             </View>
           </TouchableOpacity>
@@ -42,7 +42,7 @@ const Home = ({ navigation }) => {
             onPress={() => navigation.navigate('Localização')}
           >
             <View style={style.botao_menu}>
-              <Icon name="map-pin" size={45} style={style.icone_menu} />
+              <Icon name="map-pin" size={30} style={style.icone_menu} />
               <Text style={style.texto_menu}>Venha nos visitar</Text>
             </View>
           </TouchableOpacity>
@@ -50,7 +50,7 @@ const Home = ({ navigation }) => {
             onPress={() => navigation.navigate('Contribua')}
           >
             <View style={style.botao_menu}>
-              <Icon name="dollar-sign" size={45} style={style.icone_menu} />
+              <Icon name="dollar-sign" size={30} style={style.icone_menu} />
               <Text style={style.texto_menu}>Contribua na visão</Text>
             </View>
           </TouchableOpacity>
@@ -58,7 +58,7 @@ const Home = ({ navigation }) => {
             onPress={() => navigation.navigate('Redes')}
           >
             <View style={style.botao_menu}>
-              <Icon name="at-sign" size={45} style={style.icone_menu} />
+              <Icon name="at-sign" size={30} style={style.icone_menu} />
               <Text style={style.texto_menu}>Verbo nas Redes</Text>
             </View>
           </TouchableOpacity>
@@ -76,7 +76,7 @@ const style = StyleSheet.create({
   },
   botao_menu: {
     width: windowWidth,
-    height: windowWidth / 5,
+    height: windowWidth / 7,
     backgroundColor: '#eee',
     flexDirection: 'row',
     alignItems: 'center',
@@ -87,7 +87,7 @@ const style = StyleSheet.create({
     marginHorizontal: 20
   },
   texto_menu: {
-    fontSize: 25,
+    fontSize: 20,
     fontWeight: 'bold'
   }
 })

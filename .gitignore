@@ -60,3 +60,7 @@ buck-out/
 /ios/Pods/
 
 todo_do_app.txt
+
+*.aab
+*.apk
+*.keystore
